@@ -2,10 +2,9 @@ version: '3.8'
 
 services:
   discord-bot:
-    build: .
-    container_name: discord-music-bot
-    environment:
-      - DISCORD_TOKEN=${DISCORD_TOKEN}
-    restart: unless-stopped
-    volumes:
-      - ./bot.py:/app/bot.py
+  container_name: discord-music-bot
+  environment:
+     - DISCORD_TOKEN=${DISCORD_TOKEN}
+  restart: unless-stopped
+  volumes:
+     - ./DiscordMusicBot.py:/app/DiscordMusicBot.py
