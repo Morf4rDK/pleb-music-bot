@@ -18,4 +18,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY DiscordMusicBot.py .
 
 # Run the bot
-CMD ["python", "bot.py"]
+CMD ["python", "DiscordMusicBot.py"]
