@@ -1,4 +1,4 @@
-# Discord Music Bot 🎵
+# Pleb Discord Music Bot 🎵
 
 A Discord bot that plays music from YouTube and SoundCloud using Docker.
 
